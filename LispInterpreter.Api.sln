@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LispInterpreter.Api", "LispInterpreter.Api\LispInterpreter.Api.csproj", "{5C902D4F-A112-4BFF-BEC2-0E8DF8643CDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LispInterpreter.Service", "LispInterpreter.Service\LispInterpreter.Service.csproj", "{3FDB3BA6-ADF0-42E3-8926-2CB24AACE541}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LispInterpreter.Domain", "LispInterpreter.Domain\LispInterpreter.Domain.csproj", "{97C36428-F2CA-401A-9B9F-3997788F5DA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LispInterpreter.Tests", "LispInterpreter.Tests\LispInterpreter.Tests.csproj", "{6EEAEDBB-613D-4361-B129-3A64C3838757}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C902D4F-A112-4BFF-BEC2-0E8DF8643CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C902D4F-A112-4BFF-BEC2-0E8DF8643CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C902D4F-A112-4BFF-BEC2-0E8DF8643CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C902D4F-A112-4BFF-BEC2-0E8DF8643CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FDB3BA6-ADF0-42E3-8926-2CB24AACE541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FDB3BA6-ADF0-42E3-8926-2CB24AACE541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FDB3BA6-ADF0-42E3-8926-2CB24AACE541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FDB3BA6-ADF0-42E3-8926-2CB24AACE541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C36428-F2CA-401A-9B9F-3997788F5DA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C36428-F2CA-401A-9B9F-3997788F5DA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C36428-F2CA-401A-9B9F-3997788F5DA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C36428-F2CA-401A-9B9F-3997788F5DA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EEAEDBB-613D-4361-B129-3A64C3838757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EEAEDBB-613D-4361-B129-3A64C3838757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EEAEDBB-613D-4361-B129-3A64C3838757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EEAEDBB-613D-4361-B129-3A64C3838757}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A720EB47-4CAE-4436-A2DC-F9EB2A446A6D}
+	EndGlobalSection
+EndGlobal
